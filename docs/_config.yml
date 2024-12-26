@@ -1,0 +1,35 @@
+# Site settings
+title: "URF: Unified Report Format Specification"
+description: Technical specification for URF file format
+baseurl: "/urf-specification"
+url: ""
+
+# Theme settings
+remote_theme: just-the-docs/just-the-docs
+
+# Just the Docs specific settings
+search_enabled: true
+heading_anchors: true
+
+# Color scheme
+color_scheme: light
+
+# Navigation
+aux_links:
+  "View on GitHub":
+    - "//github.com/iamabhi747/urf-specification"
+
+# Footer content
+footer_content: "Copyright &copy; 2024. Distributed under the MIT license."
+
+# Enable syntax highlighting
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
